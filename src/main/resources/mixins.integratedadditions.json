@@ -1,0 +1,13 @@
+{
+  "package": "com.crazymeow.integratedadditions.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.integratedadditions.refmap.json",
+  "mixins": [
+    "MixinContainerLogicProgrammerBase",
+    "MixinScrollingInventoryContainerAccessor",
+    "MixinContainerScreenScrolling"
+  ],
+  "required": true,
+  "minVersion": "0.8",
+  "setSourceFile": true
+}

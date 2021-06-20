@@ -1,0 +1,7 @@
+{
+    "parent": "integratedadditions:block/part_huge_panel",
+    "textures": {
+        "back" : "integratedadditions:part/huge_panel_back_error",
+        "front": "integratedadditions:part/huge_panel_front_dark"
+    }
+}

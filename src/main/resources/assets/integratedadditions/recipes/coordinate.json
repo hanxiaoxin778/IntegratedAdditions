@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " CR",
+    " CC",
+    "C  "
+  ],
+  "key": {
+    "C": {
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    },
+    "R": {
+      "item": "integrateddynamics:menril_berries"
+    }
+  },
+  "result": {
+    "item": "integratedadditions:coordinate"
+  }
+}

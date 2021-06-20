@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "integratedadditions:block/part_dynamicsetter_reader", "y": 180 },
+    "facing=east":  { "model": "integratedadditions:block/part_dynamicsetter_reader", "y": 270 },
+    "facing=south": { "model": "integratedadditions:block/part_dynamicsetter_reader"           },
+    "facing=west":  { "model": "integratedadditions:block/part_dynamicsetter_reader", "y": 90  },
+    "facing=up":    { "model": "integratedadditions:block/part_dynamicsetter_reader", "x": 90  },
+    "facing=down":  { "model": "integratedadditions:block/part_dynamicsetter_reader", "x": 270 }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "integrateddynamics:part_huge_display_panel"
+    }
+  },
+  "result": {
+    "item": "integratedadditions:part_huge_display_panel"
+  }
+}

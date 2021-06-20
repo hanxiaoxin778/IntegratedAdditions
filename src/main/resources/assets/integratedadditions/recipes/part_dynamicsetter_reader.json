@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARA",
+    "RPR",
+    "ARA"
+  ],
+  "key": {
+    "R": {
+      "item": "integrateddynamics:cable"
+    },
+    "P": {
+      "item": "integrateddynamics:variable_transformer_input"
+    },
+    "A": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "integratedadditions:part_dynamicsetter_reader"
+  }
+}

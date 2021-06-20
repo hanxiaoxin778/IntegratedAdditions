@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+[[mods]]
+modId="integratedadditions"
+version="${file.jarVersion}"
+displayName="IntegratedAdditions"
+logoFile="examplemod.png"
+credits="CrazyMeow"
+authors="qq564855769"
+description='''
+An addon for Integrated Dynamics.
+'''
+[[dependencies.integratedadditions]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.integratedadditions]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.integratedadditions]]
+    modId="cyclopscore"
+    mandatory=true
+    versionRange="[1.11.1,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.integratedadditions]]
+    modId="integrateddynamics"
+    mandatory=true
+    versionRange="[1.8.0,)"
+    ordering="NONE"
+    side="BOTH"
