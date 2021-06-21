@@ -52,7 +52,7 @@ public class AdditionAspectReadBuilders {
                 new AspectPropertyTypeInstance<>(ValueTypes.INTEGER, "aspect.aspecttypes.integratedadditions.integer.increment", VALIDATOR_INTEGER_NONZERO_POSITIVE);
 
         public static final IAspectPropertyTypeInstance<ValueTypeString, ValueTypeString.ValueString> PROP_INTEGER_ARRAY =
-                new AspectPropertyTypeInstance<>(ValueTypes.STRING, "aspect.aspecttypes.integratedadditions.string.integer_array", VALIDATOR_STRING_POSITIVE);
+                new AspectPropertyTypeInstance<>(ValueTypes.STRING, "aspect.aspecttypes.integratedadditions.integer.integer_array", VALIDATOR_STRING_POSITIVE);
 
         public static final IAspectProperties PROPERTIES_RANDOM = new AspectProperties(ImmutableList.<IAspectPropertyTypeInstance>of(
                 PROP_MIN_VALUE,

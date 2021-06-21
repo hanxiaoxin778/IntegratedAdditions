@@ -34,5 +34,5 @@
   "aspect.aspecttypes.integratedadditions.integer.increment": "增量",
   "aspect.aspecttypes.integratedadditions.integer.increment.info": "每次增加的数值",
   "aspect.aspecttypes.integratedadditions.integer.integer_array": "整型数组",
-  "aspect.aspecttypes.integratedadditions.string.integer_array.info": "用逗号隔开，如：100,25,46,67,79"
+  "aspect.aspecttypes.integratedadditions.integer.integer_array.info": "用逗号隔开，如：100,25,46,67,79"
 }

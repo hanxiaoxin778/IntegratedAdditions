@@ -35,5 +35,5 @@
   "aspect.aspecttypes.integratedadditions.integer.increment": "Increment",
   "aspect.aspecttypes.integratedadditions.integer.increment.info": "Value added each time",
   "aspect.aspecttypes.integratedadditions.integer.integer_array": "Integer Array",
-  "aspect.aspecttypes.integratedadditions.string.integer_array.info": "Separated by comma,Such as: 100,25,46,67,79"
+  "aspect.aspecttypes.integratedadditions.integer.integer_array.info": "Separated by comma,Such as: 100,25,46,67,79"
 }
