@@ -51,3 +51,10 @@ Currently, it has the following functions (please let me know if you have better
  
 
 This is just the beginning. I'm going to make the integrated additions extremely powerful!
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/1.jpg)
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/2.gif)
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/3.jpg)
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/4.gif)
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/5.jpg)
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/6.gif)
+![Image text](https://raw.githubusercontent.com/hanxiaoxin778/IntegratedAdditions/master/image/en/7.jpg)
