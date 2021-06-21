@@ -9,37 +9,24 @@ Note: I found that there was an addon developers document in integrated dynamics
 Currently, it has the following functions (please let me know if you have better suggestions)
 [New PartType]
 
-1.Dynamic-Setter Reader（It will be useful if you have Integrated-Proxy installed）
-
--Specifies the random value in the range (parameter)
-
--The increment (parameter) value within the specified range (parameter) and interval (parameter)
-
--Specifies that the values in the array (parameter) and interval (parameter) are obtained in order
-
-2.Huge Display Panel（Imperfect）
+<p>1.Dynamic-Setter Reader（It will be useful if you have Integrated-Proxy installed）</p>
+<p>-Specifies the random value in the range (parameter)</p>
+<p>-The increment (parameter) value within the specified range (parameter) and interval (parameter)</p>
+<p>-Specifies that the values in the array (parameter) and interval (parameter) are obtained in order</p>
+<p>2.Huge Display Panel（Imperfect）</p>
 
 [Quick]
 
-1.clear relation
-
--default key ALT+X
-
-2.set variable card
-
--default key ALT+S
-
-3.copy variable card
-
--default key ALT+C
-
-4.show variable card relation
-
--default key ALT
-
-5.Allows direct drag and drop of JEI items to Logic Programmer
-
-6.Copy entire network（Not yet open）
+<p>1.clear relation</p>
+<p>-default key ALT+X</p>
+<p>2.set variable card</p>
+<p>-default key ALT+S</p>
+<p>3.copy variable card</p>
+<p>-default key ALT+C</p>
+<p>4.show variable card relation</p>
+<p>-default key ALT</p>
+<p>5.Allows direct drag and drop of JEI items to Logic Programmer</p>
+<p>6.Copy entire network（Not yet open）</p>
 
 [New Item]
 
