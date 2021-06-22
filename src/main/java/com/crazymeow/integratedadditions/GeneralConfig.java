@@ -12,7 +12,7 @@ public class GeneralConfig extends DummyConfig {
 //    public static boolean versionChecker = false;
 
     @ConfigurableProperty(category = "general", comment = "The maximum radius of entity teleporter of entity writer.", minimalValue = 0, configLocation = ModConfig.Type.SERVER)
-    public static int entityWriteTeleporterRadius = 100;
+    public static int entityWriteTeleporterRadius = 10000;
 
     public static int dynamicSetterReaderBaseConsumption = 1;
 
