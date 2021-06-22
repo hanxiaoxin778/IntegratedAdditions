@@ -51,6 +51,8 @@ public class IntegratedAdditions extends ModBase<IntegratedAdditions> {
     @Override
     public void onConfigsRegister(ConfigHandler configHandler) {
         super.onConfigsRegister(configHandler);
+
+        configHandler.addConfigurable(new GeneralConfig());
         configHandler.addConfigurable(new ItemCoordinateConfig());
     }
 

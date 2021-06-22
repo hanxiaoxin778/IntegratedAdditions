@@ -25,6 +25,8 @@
   "aspect.integratedadditions.read.integer.dynamicsetter.identitybetween.info": "指定范围（参数）、指定间隔（参数）中递增（参数）取值",
   "aspect.integratedadditions.read.integer.dynamicsetter.arraybetween": "数组变化",
   "aspect.integratedadditions.read.integer.dynamicsetter.arraybetween.info": "指定数组（参数）、指定间隔（参数）中顺序取值",
+  "aspect.integratedadditions.write.entity.entity.teleporter": "传送实体",
+  "aspect.integratedadditions.write.entity.entity.teleporter.info": "传送实体到指定偏移（参数）位置",
   "aspect.aspecttypes.integratedadditions.integer.min_value": "最小值",
   "aspect.aspecttypes.integratedadditions.integer.min_value.info": "包括最小值",
   "aspect.aspecttypes.integratedadditions.integer.max_value": "最大值",

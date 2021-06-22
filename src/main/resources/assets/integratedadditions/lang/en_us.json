@@ -26,6 +26,8 @@
   "aspect.integratedadditions.read.integer.dynamicsetter.identitybetween.info": "The increment (parameter) value within the specified range (parameter) and interval (parameter)",
   "aspect.integratedadditions.read.integer.dynamicsetter.arraybetween": "Array Between",
   "aspect.integratedadditions.read.integer.dynamicsetter.arraybetween.info": "Specifies that the values in the array (parameter) and interval (parameter) are obtained in order",
+  "aspect.integratedadditions.write.entity.entity.teleporter": "Teleporter Entity",
+  "aspect.integratedadditions.write.entity.entity.teleporter.info": "Teleporter entity to specified offset (parameter) position",
   "aspect.aspecttypes.integratedadditions.integer.min_value": "Min Value",
   "aspect.aspecttypes.integratedadditions.integer.min_value.info": "Include minimum",
   "aspect.aspecttypes.integratedadditions.integer.max_value": "Max Value",
