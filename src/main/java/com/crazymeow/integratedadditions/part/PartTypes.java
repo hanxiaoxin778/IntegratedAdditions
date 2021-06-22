@@ -16,6 +16,7 @@ public class PartTypes {
         AspectRegistry.getInstance().register(org.cyclops.integrateddynamics.core.part.PartTypes.ENTITY_WRITER, Lists.<IAspect>newArrayList(
                 AdditionAspects.Write.Entity.BUILDER_ENTITY_TELEPORTER
         ));
+
     }
 
     public static final PartTypeDynamicSetterReader DYNAMICSETTER_READER = REGISTRY.register(new PartTypeDynamicSetterReader("dynamicsetter_reader"));
