@@ -1,6 +1,5 @@
 package com.crazymeow.integratedadditions.part.aspect;
 
-import com.crazymeow.integratedadditions.GeneralConfig;
 import com.crazymeow.integratedadditions.IntegratedAdditions;
 import com.google.common.collect.ImmutableList;
 import org.apache.commons.lang3.tuple.Triple;
@@ -23,9 +22,7 @@ public class AdditionAspectWriteBuilders {
     public static final IAspectValuePropagator<Triple<PartTarget, IAspectProperties, ValueObjectTypeEntity.ValueEntity>, Triple<PartTarget, IAspectProperties, Optional<net.minecraft.entity.Entity>>>
             PROP_GET_ENTITY = input -> Triple.of(input.getLeft(), input.getMiddle(), input.getRight().getRawValue());
 
-    public static final Predicate<ValueTypeDouble.ValueDouble> VALIDATOR_DOUBLE = input -> {
-        return input.getRawValue() <= GeneralConfig.entityWriteTeleporterRadius && input.getRawValue() >= -GeneralConfig.entityWriteTeleporterRadius;
-    };
+    public static final Predicate<ValueTypeDouble.ValueDouble> VALIDATOR_DOUBLE = input -> input.getRawValue() <= 10000 && input.getRawValue() >= -10000;
 
     public static final IAspectPropertyTypeInstance<ValueTypeDouble, ValueTypeDouble.ValueDouble> PROP_OFFSET_X =
             new AspectPropertyTypeInstance<>(ValueTypes.DOUBLE, "aspect.aspecttypes.integrateddynamics.double.offset_x", VALIDATOR_DOUBLE);
