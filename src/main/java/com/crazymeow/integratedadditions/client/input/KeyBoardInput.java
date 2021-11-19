@@ -176,7 +176,7 @@ public class KeyBoardInput {
 
     @SubscribeEvent
     public static void onRenderTooltip(RenderTooltipEvent.Pre event) {
-        if (InputMappings.isKeyDown(Minecraft.getInstance().getMainWindow().getHandle(), SHOW_KEY.getKey().getKeyCode())) {
+        if (!SHOW_KEY.isInvalid() && InputMappings.isKeyDown(Minecraft.getInstance().getMainWindow().getHandle(), SHOW_KEY.getKey().getKeyCode())) {
             Screen screen = MINECRAFT.currentScreen;
             if (screen instanceof ContainerScreen) {
                 ContainerScreen<?> containerScreen = (ContainerScreen<?>) screen;
@@ -271,73 +271,5 @@ public class KeyBoardInput {
         RenderSystem.disableBlend();
         RenderSystem.enableTexture();
         RenderSystem.enableDepthTest();
-    }
-
-
-    private static void drawRoundRect(RenderTooltipEvent.Pre event) {
-        float divide = 20.0f;  //圆角细分数量
-        float cirr = 10.0f;    //内圆角半径
-        float cirR = 20.0f;    //外圆角半径
-        float w = 20.0f;    //内矩形宽度
-        float h = 50.0f;    //内矩形高度
-        float W = 30.0f;    //外矩形宽度
-        float H = 35.0f;    //外矩形高度
-        float halfW = W / 2;
-        float halfH = H / 2;
-        float halfw = w / 2;
-        float halfh = h / 2;
-        float part = divide / 4;
-        float tx;
-        float ty;
-        float ang = 6.28f;
-        int whois = 0;
-        float[][] arr = {
-                {halfw, halfh, halfW, halfH},
-                {-halfw, halfh, -halfW, halfH},
-                {-halfw, -halfh, -halfW, -halfH},
-                {halfw, -halfh, halfW, -halfH},
-        };
-        event.getMatrixStack().push();
-        RenderSystem.enableDepthTest();
-        RenderSystem.disableTexture();
-        RenderSystem.enableBlend();
-        RenderSystem.defaultBlendFunc();
-
-        Tessellator tessellator = Tessellator.getInstance();
-        BufferBuilder buffer = tessellator.getBuffer();
-        buffer.begin(GL11.GL_QUAD_STRIP, DefaultVertexFormats.POSITION);
-        buffer.color(1, 0, 0, 1);
-        Matrix4f matrix = event.getMatrixStack().getLast().getMatrix();
-        int mouseX = event.getX();
-        int mouseY = event.getY();
-//        for (float i = 0; i <= divide; ) {
-//            tx = (float) (cirr * Math.cos(ang * i / divide) + arr[whois][0]);
-//            ty = (float) (cirr * Math.sin(ang * i / divide) + arr[whois][1]);
-//            buffer.pos(matrix, (float)tx+mouseX, (float)ty+mouseY, 0f).endVertex();
-//            tx = (float) (cirR * Math.cos(ang * i / divide) + arr[whois][2]);
-//            ty = (float) (cirR * Math.sin(ang * i / divide) + arr[whois][3]);
-//            buffer.pos(matrix, (float)tx+mouseX, (float)ty+mouseY, 0f).endVertex();
-//            if (whois == 0 && i == part * 1.0) {
-//                whois += 1;
-//                i -= 1.0;
-//            }
-//            if (whois == 1 && i == part * 2.0) {
-//                whois += 1;
-//                i -= 1.0;
-//            }
-//            if (whois == 2 && i == part * 3.0) {
-//                whois += 1;
-//                i -= 1.0;
-//            }
-//            if (whois == 3 && i == part * 4.0) {
-//                whois = 0;
-//                i -= 1.0;
-//            }  //i积累满时，for结束，为了完成回环，i-=1f;
-//            i += 1.0;
-//        }
-        tessellator.draw();
-
-        event.getMatrixStack().pop();
-        RenderSystem.enableTexture();
     }
 }
